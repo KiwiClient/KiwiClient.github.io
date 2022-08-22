@@ -25,7 +25,7 @@ h1 {
   align-items: center;
 }
 
-.appxButton {
+.downloadButton {
   color: white;
   width: 169px;
   height: 69px;
@@ -38,7 +38,7 @@ h1 {
   border: none;
 }
 
-.appxButton:hover {
+.downloadButton:hover {
   color: black;
   background-color: white;
   transform: translateY(-5px);
