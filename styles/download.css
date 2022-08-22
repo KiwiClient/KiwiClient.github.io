@@ -1,1 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+body {
+  background-color: #272E39;
+  background-image: url('.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: -100px;
+  height: -300px;
+}
+
+.downloadDiv {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.downloadAppx {
+  color: #000000;
+}
