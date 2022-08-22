@@ -43,3 +43,7 @@ h1 {
   background-color: white;
   transform: translateY(-5px);
 }
+
+.downloadAppx {
+  color: black;
+}
