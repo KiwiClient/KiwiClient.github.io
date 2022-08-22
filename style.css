@@ -44,6 +44,8 @@ h1 {
   transform: translateY(-5px);
 }
 
-.downloadAppx {
-  color: black;
+.downloadDiv {
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
