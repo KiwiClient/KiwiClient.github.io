@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
-  background-color: #272E39;
+  background-color: rgb(255,255,255);
   background-image: url('.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -10,12 +10,34 @@ body {
   height: -300px;
 }
 
-.downloadDiv {
+.mainDiv {
   justify-content: center;
   display: flex;
   align-items: center;
 }
 
-.downloadAppx {
-  color: #000000;
+h1 {
+  color: black;
+  font-size: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.Appx {
+  color: white;
+  border: none;
+  background-color: #00ae69;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+
+.Appx:hover {
+  color: black;
+  background-color: white;
+  transform: translateY(-5px);
 }
