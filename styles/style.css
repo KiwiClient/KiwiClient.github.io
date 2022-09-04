@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-body {
+html , body {
   background-image: url('https://cdn.discordapp.com/attachments/973101536261574669/1015936748842397840/bg.jpg');
   font-family: 'Poppins', sans-serif;
   background-position: center;
@@ -9,16 +9,9 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 100px;
   position: relative;
-}
-
-h1 {
-  color: white;
-  justify-content: center;
-  align-items: center;
   display: flex;
-  font-family: 'Poppins', sans-serif;
 }
 
 .topnav {
@@ -40,10 +33,9 @@ h1 {
   align-items: center;
   text-align: center;
   color: white;
-  text-align: center;
   padding: 10px 5px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
   display: block;
   display: inline-block;
 }
