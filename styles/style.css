@@ -8,8 +8,9 @@ body {
   background-size: cover;
   justify-content: center;
   align-items: center;
-  width: 1000px;
-  height: 1000px;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 h1 {
@@ -18,13 +19,12 @@ h1 {
   align-items: center;
   display: flex;
   font-family: 'Poppins', sans-serif;
-  font-size: 65px;
 }
 
 .topnav {
   color: white;
   overflow: hidden;
-  width: 1000px;
+  width: 100%;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -39,18 +39,11 @@ h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  left: -50%;
   color: white;
-  margin-left: 3px;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 5px;
   text-decoration: none;
   font-size: 17px;
   display: block;
   display: inline-block;
-}
-
-.topnav a:hover {
-  background-color: #ffffff;
-  color: black;
 }
