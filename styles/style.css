@@ -36,7 +36,17 @@ section {
   color: white;
   padding: 10px 5px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 13px;
   display: block;
   display: inline-block;
+}
+
+.topnav a:hover {
+  color: #00ae69;
+  transform: translateY(-3px);
+}
+  
+h1 {
+  text-align: center;
+  color: #00ae69;
 }
