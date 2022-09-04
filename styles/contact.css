@@ -1,5 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
+  background-image: url('https://cdn.discordapp.com/attachments/1010579310479941843/1012032134816473178/unknown.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,11 +8,34 @@ body {
   align-items: center;
   width: 100%;
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  max-width: 600px;
 }
 
-h1 {
+section {
+  color: white;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   justify-content: center;
   align-items: center;
-  display: flex;
-  font-size: 24px;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 50px;
 }
+        
+section .box {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            padding: 50px;
+background: rgba(0, 0, 0, 0.51);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.9px);
+            justify-content: center;
+            align-items: center;
+        }
