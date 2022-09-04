@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
-  background-image: url('');
+  background-image: url('https://cdn.discordapp.com/attachments/973101536261574669/1015936748842397840/bg.jpg');
   font-family: 'Poppins', sans-serif;
   background-position: center;
   background-repeat: no-repeat;
@@ -9,11 +9,11 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 100vh;
+  height: 200%;
 }
 
 h1 {
-  color: black;
+  color: white;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -23,16 +23,22 @@ h1 {
 
 .topnav {
   color: white;
-  background-color: #000000;
   overflow: hidden;
-  width: 972px;
+  width: 1000px;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
 }
 
 .topnav a {
   justify-content: center;
   align-items: center;
+  text-align: center;
   left: -50%;
   color: white;
   margin-left: 3px;
@@ -47,9 +53,4 @@ h1 {
 .topnav a:hover {
   background-color: #ffffff;
   color: black;
-}
-
-.topnav a.active {
-  background-color: #000000;
-  color: white;
 }

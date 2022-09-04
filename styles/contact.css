@@ -18,24 +18,27 @@ html , body {
 .box {
   justify-content: center;
   align-items: center;
-  height: 500px;
-  width: 500px;
+  text-align: center;
+  height: 150px;
+  width: 520px;
   position: relative;
-  background: rgba(0, 0, 0, 0.77);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(16.9px);
-  -webkit-backdrop-filter: blur(16.9px);
-}
-
-.discord {
-  justify-content: center;
-  align-items: center;
-  color: white;
-  border: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
 }
 
 h1 {
-  justify-content: center;
-  align-items: center;
+  color: #00ae69;
+}
+
+a {
+  color: white;
+  padding: 6px;
+}
+
+a:hover {
+  color: purple;
+  transform: translateY(-5px);
 }
