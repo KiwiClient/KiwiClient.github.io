@@ -32,6 +32,7 @@ html , body {
 
 a {
   color: white;
+  animation: ease 2s;
 }
 
 a:hover {

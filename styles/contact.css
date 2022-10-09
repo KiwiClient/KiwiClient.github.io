@@ -36,6 +36,7 @@ h1 {
 a {
   color: white;
   padding: 6px;
+  animation: ease 2s;
 }
 
 a:hover {

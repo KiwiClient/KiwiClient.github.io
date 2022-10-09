@@ -36,6 +36,7 @@ section {
   color: white;
   padding: 10px 5px;
   text-decoration: none;
+  animation: ease 2s;
   font-size: 13px;
   display: block;
   display: inline-block;
