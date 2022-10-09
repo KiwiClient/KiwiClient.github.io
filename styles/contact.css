@@ -40,6 +40,10 @@ a {
 }
 
 a:hover {
-  color: purple;
-  transform: translateY(-5px);
+  animation: hoverAnim 0.25s;
+}
+
+@keyframes hoverAnim {
+    from { transform: translateY(0px); color: white; }
+    to { transform: translateY(-5px); color: purple; }
 }
