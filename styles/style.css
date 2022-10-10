@@ -36,16 +36,21 @@ section {
   color: white;
   padding: 10px 5px;
   text-decoration: none;
+  animation: ease 2s;
   font-size: 13px;
   display: block;
   display: inline-block;
 }
 
 .topnav a:hover {
-  color: #00ae69;
-  transform: translateY(-3px);
+  animation: hoverAnim 0.25s;
 }
-  
+
+@keyframes hoverAnim {
+    from { transform: translateY(0px); color: white; }
+    to { transform: translateY(-3px); color: #00ae69; }
+}
+
 h1 {
   text-align: center;
   color: #00ae69;
